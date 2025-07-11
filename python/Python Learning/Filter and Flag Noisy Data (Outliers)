@@ -1,0 +1,7 @@
+readings = [95, -3, 102, 88, 76, 101, 0, 99]
+
+for i in readings:
+    if 0>i or i>100:
+        print(f"Reading {i} is outlier")
+    else:
+        print(f"Reading {i} is valid")
